@@ -1,0 +1,13 @@
+{
+	"name": "docfiles",
+	"version": "1.0.0",
+	"description": "set up a chee rabbits computer",
+	"author": "chee",
+	"license": "AGPL-3.0-or-later",
+	"dependencies": {
+		"@chee/lima": "^2.1.1"
+	},
+	"scripts": {
+		"tangle": "dir=$PWD zsh -c 'for file in settings/**/*.md; do cd $HOME && echo tangling $file && npx @chee/lima tangle $dir/$file; done'"
+	}
+}
