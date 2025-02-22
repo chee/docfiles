@@ -157,7 +157,7 @@ zodiac = pisces
 user = chee
 ```
 
--  the include file
+## the include file
 
 git lets you use a .gitconfig.d folder, though it isn't really very convenient,
 you still need to include every file. i need to add some kind of scripting to

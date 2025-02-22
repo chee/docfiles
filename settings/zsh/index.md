@@ -25,7 +25,7 @@ done
 fpath=($fpath "$HOME/.zfunctions")
 ```
 
--  00-zsh
+## 00-zsh
 
 the base config to get zsh to behave normally
 
