@@ -1,0 +1,13 @@
+{
+	"editor.formatOnType": true,
+	"emeraldwalk.runonsave": {
+		"commands": [
+			{
+				"match": ".*\\.md",
+				"cmd": "cd ~ && echo tangling '${file}' && npx @chee/lima tangle '${file}'",
+				"isAsync": true,
+				"autoShowOutputPanel": "always"
+			}
+		]
+	}
+}
