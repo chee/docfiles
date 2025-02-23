@@ -47,5 +47,4 @@ assumes clpm installed with INSTALL_ROOT=~/.local
   (asdf:load-system "clpm-client")
   (when (uiop:symbol-call :clpm-client '#:active-context)
     (uiop:symbol-call :clpm-client '#:activate-asdf-integration)))
-(clpm-client:activate-context "default" :activate-asdf-integration t)
 ```
