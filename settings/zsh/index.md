@@ -335,10 +335,10 @@ that's specific to that computer
 
 ```zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
 export PATH=$PATH
-source /opt/homebrew/etc/profile.d/z.sh
+# source /opt/homebrew/etc/profile.d/z.sh
 export GUILE_LOAD_PATH="/opt/homebrew/share/guile/site/3.0"
 export GUILE_LOAD_COMPILED_PATH="/opt/homebrew/lib/guile/3.0/site-ccache"
 export GUILE_SYSTEM_EXTENSIONS_PATH="/opt/homebrew/lib/guile/3.0/extensions"
