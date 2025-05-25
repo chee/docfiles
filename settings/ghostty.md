@@ -1,13 +1,15 @@
 # ghostty
 
-```conf .config/ghostty/config
+```conf filename=".config/ghostty/config"
 macos-option-as-alt = left
 font-family = FantasqueSansMono
 foreground = #cc3366
 background = #ffe9ed
-cursor-color = #89FBD8
+cursor-color =#2edca8
+cursor-style = block
 selection-foreground=#333333
 selection-background=#ffee88
+shell-integration-features = no-cursor
 
 # black
 palette = 0=#1e1316

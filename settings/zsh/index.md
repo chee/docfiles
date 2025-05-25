@@ -146,8 +146,8 @@ autoload -Uz vcs_info
 setopt prompt_subst
 
 precmd() {
-    vcs_info
-    echo -n $host_reminder
+	vcs_info
+	echo -n $host_reminder
 }
 
 newline=$'\n'
