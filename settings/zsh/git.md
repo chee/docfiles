@@ -18,15 +18,15 @@ function gcl() {
 }
 
 function ghcl() {
-	gcl git@github.com:$\*
+	gcl git@github.com:$*
 }
 
-function ftcl() {
-	ghcl Financial-Times/$\*
+function ncl() {
+	ghcl netlify/$*
 }
 
 function cl() {
-	gcl chee@chee.party:repos/$* || gcl chee@chee.party:repos/private/$\*
+	gcl chee@chee.party:repos/$* || gcl chee@chee.party:repos/private/$*
 	git remote set-url --add origin git@github.com:chee/$1
 }
 ```
