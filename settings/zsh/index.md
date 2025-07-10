@@ -185,7 +185,7 @@ WORDCHARS='*?.[]~=&;!#$%^(){}<>'
 ```zsh filename=".zshrc.d/10-env.zsh"
 env=(
 	BROWSER=firefox
-	EDITOR='code -w'
+	EDITOR='emacs'
 	LESS_TERMCAP_mb=$'\E[01;31m'
 	LESS_TERMCAP_md=$'\E[01;31m'
 	LESS_TERMCAP_me=$'\E[0m'
