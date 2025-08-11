@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/denoland/deno/main/cli/schemas/config-file.v1.json",
+  "tasks": {
+    "tangle-all": "dir=$PWD zsh -c 'for file in settings/**/*.md; do cd $HOME && echo tangling $file && npx @chee/lima tangle $dir/$file; done'"
+  },
+  "imports": {
+    "@chee/lima": "npm:@chee/lima@^2.1.1",
+    "@std/assert": "jsr:@std/assert@1",
+    "rt": "/opt/homebrew/share/guile-hoot/0.6.0/reflect-js/reflect.js",
+    "debug": "/opt/homebrew/share/guile-hoot/0.6.0/reflect-js/reflect.js",
+    "io": "/opt/homebrew/share/guile-hoot/0.6.0/reflect-js/reflect.js"
+  }
+}

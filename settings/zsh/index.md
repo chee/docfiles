@@ -140,7 +140,6 @@ zstyle ':completion:*'  matcher-list \
 	'r:|?=** m:{a-z\-}={A-Z\_}'
 
 autoload zmv
-autoload zed
 autoload colors
 autoload -Uz vcs_info
 setopt prompt_subst
